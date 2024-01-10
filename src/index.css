@@ -1,0 +1,84 @@
+/*
+공통적으로 custom 해야 할 디자인 작업 
+*/
+* {
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
+  box-sizing: border-box;
+}
+/*layout custom style*/
+.ant-layout {
+  background-color: white;
+}
+/*modal custom style*/
+.ant-modal-content {
+  border-radius: 16px;
+}
+.ant-modal-header {
+  border-radius: 16px 16px 0 0;
+}
+
+/*button custom style*/
+.ant-btn-primary:hover {
+  background-color: #0349e6;
+}
+.ant-btn-primary:active {
+  background-color: #0241cc;
+}
+.ant-btn-lg {
+  width: 100%;
+}
+
+/*drop down custom style*/
+.ant-dropdown-trigger {
+  color: black;
+}
+
+.ant-dropdown-menu-item-only-child:hover {
+  background-color: #e6eeff;
+}
+
+/*tooltip custom style*/
+.ant-tooltip-arrow-content {
+  --antd-arrow-background-color: #ffffff;
+}
+
+.ant-tooltip-inner {
+  background-color: #ffffff;
+  color: black;
+}
+
+.ant-message-notice-content {
+  padding: 0;
+}
+.ant-message-success {
+  padding: 10px 16px;
+  background-color: #0cbc72;
+  color: white;
+}
+.ant-message-success .anticon {
+  color: white;
+}
+.ant-message-error {
+  padding: 10px 16px;
+  background-color: #fe395b;
+  color: white;
+}
+.ant-message-error .anticon {
+  color: white;
+}
+.ant-message-warning {
+  padding: 10px 16px;
+  background-color: #9199a4;
+  color: white;
+}
+.ant-message-warning .anticon {
+  color: white;
+}
+
+.ant-message-notice {
+  margin: 50px auto 0 auto;
+}
+
+.ant-table-row-selected td[rowspan] {
+  background-color: white !important;
+}
